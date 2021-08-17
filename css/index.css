@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+img{
+    height: 250px;
+    width: 400px;
+    border: solid #000000 4px;
+    margin: 20px;
+    box-shadow: 3px 3px #C0C0C0;
+}
+
+@media screen and (max-width: 600px){
+    img{
+        height: 110px;
+        width: 200px;
+    }
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap; /*If not written, then it can be used as a horizontal scroll*/
+}
